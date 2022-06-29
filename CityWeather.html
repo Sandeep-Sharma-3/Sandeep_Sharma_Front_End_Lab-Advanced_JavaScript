@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="Images/Favicon/Favicon.jpg">
+    <link rel="stylesheet" href="CityWeather.css">
+</head>
+<body>
+    <div class="weatherBox">
+        <div class="weatherBoxHeading">
+            <p id="boxHeadingText">City Weather</p>
+        </div>
+        <div class="weatherBoxContent">
+            <div class="citySelectDiv">
+                <div class="citySelectContainer">
+                    <p>City Menu</p>
+                    <select name="City" id="selectCity" required>
+                        <option value="not_selected">Choose...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="showWeather">
+                <div class="weatherTextContainer">
+                    <div id="weatherTextName"></div>
+                    <div id="weatherTextTemp"></div>
+                </div>
+                <div class="weatherImgContainer">
+                    <img src="" id="weatherImg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="CityWeather.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherBox {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    flex-direction: column;
+    min-width: 842px;
+    justify-content: center;
+}
+
+.weatherBoxHeading {
+    background-color: #cccccc;
+}
+
+#boxHeadingText {
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.weatherBoxContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.citySelectDiv {
+    width: 50%;
+    display: inline-block;
+    background-color: #e8e8e8;
+}
+
+.citySelectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#selectCity {
+    width: 150px;
+}
+
+.showWeather {
+    width: 50%;
+    display: inline-block;
+}
+
+.weatherTextContainer {
+    display: flex;
+    background-color: #e2e2e2;
+}
+#weatherTextName, #weatherTextTemp {
+    width: 50%;
+}
+
+.weatherImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weatherImg {
+    max-height: 350px;
+	width: 100%;
+}
